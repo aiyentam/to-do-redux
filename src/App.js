@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "./App.css";
+import Footer from "./components/Footer";
+// import AddTodo from '.'
+// import VisibleTodoList from './components'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <h1>Testing</h1>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    {/* <AddTodo /> */}
+    {/* <VisibleTodoList/> */}
+    <Footer />
+  </div>
+);
 
 export default App;
